@@ -13,7 +13,7 @@ void mul(int a,int b)
     printf("\nmul = %d",a*b);
 
 }
-void div(int a,int b)
+void divide(int a,int b)
 {
     if(b==0)
     {
@@ -26,7 +26,7 @@ void div(int a,int b)
 int main ()
 {
     int i,j,ch;
-    void(*funptr[15])(int,int)={sum,diff,mul,div};
+    void(*funptr[15])(int,int)={sum,diff,mul,divide};
     printf("0 - Addition\n1 - Subtraction\n2 - Multiplication\n3 - Division");
     printf("\nenter the char:");
     scanf("%d",&ch);
