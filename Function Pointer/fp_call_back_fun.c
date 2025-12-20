@@ -16,4 +16,4 @@ int main()
 {
     disp(sum);
     disp(mul);
-}
+} 
