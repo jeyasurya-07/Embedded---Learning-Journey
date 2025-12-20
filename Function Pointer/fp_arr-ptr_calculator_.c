@@ -18,7 +18,7 @@ void div(int a,int b)
     if(b==0)
     {
         printf("\nerror by zero");
-        return 0;
+        return;
     }
     printf("\ndiv = %d",a/b);
 }
