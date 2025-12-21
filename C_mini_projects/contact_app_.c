@@ -103,8 +103,15 @@ void deleteContact()
         return;
     }
 
+    if (index != count - 1) {
+        strcpy(names[index], names[count - 1]);
+        strcpy(phones[index], phones[count - 1]);
+    }
+
+   
     names[count - 1][0] = '\0';
     phones[count - 1][0] = '\0';
+
     count--;
 
     printf("Contact deleted successfully.\n");
