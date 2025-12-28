@@ -23,5 +23,7 @@ int main(){
         printf("the details of student[%d]:\n",i+1);
         struct student *ptr=&s[i];
         printf("%d %s %f\n",(*ptr).rollno,(*ptr).name,(*ptr).marks);
+
+        
     }
 }
